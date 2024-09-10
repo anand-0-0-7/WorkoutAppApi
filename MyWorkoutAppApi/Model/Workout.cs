@@ -1,24 +1,20 @@
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MyWorkoutAppApi.Models
 {
-    public class User
+    public class Workout
     {
         [Key]
-        public int UserId { get; set; }
-        
-        public string Username { get; set; }
+        public int WorkoutId { get; set; }  // Primary Key
 
         [Required]
         [MaxLength(100)]
-        public string Email { get; set; }
+        public string WorkoutName { get; set; }
 
         [Required]
-        [MaxLength(100)]
-        public string Password { get; set; }
-        public DateTime CreationDate { get; set; }
+        [MaxLength(50)]
+        public string WorkoutType { get; set; }
 
         // Navigation property for WorkoutLogs
         public ICollection<WorkoutLog> WorkoutLogs { get; set; }

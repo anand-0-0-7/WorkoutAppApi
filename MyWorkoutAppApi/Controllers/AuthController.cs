@@ -34,7 +34,7 @@ namespace MyWorkoutAppApi.Controllers
             if (existingUser == null)
                 return Unauthorized("Invalid email or password.");
 
-            return Ok("Sign-in successful.");
+            return Ok(new { UserId = existingUser.UserId, Message = "Sign-in successful." });
         }
     }
 }

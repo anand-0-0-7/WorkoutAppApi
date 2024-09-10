@@ -1,0 +1,20 @@
+INSERT INTO Workouts (WorkoutName, WorkoutType)
+VALUES
+    ('PeckFly', 'Chest'),
+    ('Dmbl Chest Press', 'Chest'),
+    ('Inclined Dmbl Chest Press', 'Chest'),
+    ('Seated Rowing', 'Back'),
+    ('Lat Pull down', 'Back'),
+    ('Lateral dmbl raise', 'Back'),
+    ('Tricep push down', 'Biceps & Triceps'),
+    ('Cable curl', 'Biceps & Triceps'),
+    ('Dmbl Hammer Curl', 'Biceps & Triceps'),
+    ('Free Squats', 'Legs'),
+    ('Weight Squats', 'Legs'),
+    ('Dmbl Shoulder press', 'Shoulders'),
+    ('Standing Calf', 'Legs'),
+    ('Shoulder shrug', 'Shoulders'),
+    ('Wall hold Squats', 'Legs'),
+    ('Front Plank', 'Abs'),
+    ('Side Plank', 'Abs'),
+    ('Crunches', 'Abs');
